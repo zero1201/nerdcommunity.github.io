@@ -1,1 +1,26 @@
-document.addEventListener('DOMContentLoaded',function(){const secretTrigger=document.getElementById('secret-trigger');const secretPage=document.getElementById('secret-page');const closeSecret=document.getElementById('close-secret');if(secretTrigger){secretTrigger.addEventListener('click',function(){if(secretPage)secretPage.classList.remove('hidden')})}if(closeSecret){closeSecret.addEventListener('click',function(){if(secretPage)secretPage.classList.add('hidden')})}const bbsForm=document.querySelector('.bbs-form');if(bbsForm){bbsForm.addEventListener('submit',function(e){e.preventDefault();alert('書き込みはまだ実装されていません！ (…という体で)');bbsForm.reset()})}const counter=document.querySelector('.counter');if(counter){let count=parseInt(counter.textContent);setInterval(()=>{count+=Math.floor(Math.random()*3)+1;counter.textContent=count},3000)}var _0x1e85d5=_0xac99;window.cp='bmVyZGNvbW11bml0eS5mNS5zaQ==';window.cpe='JUU2JTlDJUFDJUUzJTgzJTlBJUUzJTgzJUJDJUUzJTgyJUI4JUUzJTgxJUFGJUUzJTgwJTgxJUU3JTg0JUExJUU2JTk2JUFEJUUzJTgxJUE3JUU4JUE0JTg3JUU4JUEzJUJEJUUzJTgxJTk1JUUzJTgyJThDJUUzJTgxJTlGJUUzJTgyJUI1JUUzJTgyJUE0JUUzJTgzJTg4JUUzJTgxJUE3JUUzJTgxJTk5JUVGJUJDJTgxJTNDYnIlM0UlRTclODQlQTElRTYlOTYlQUQlRTMlODElQTclRTMlODElQUUlRTMlODIlQTYlRTMlODIlQTclRTMlODMlOTYlRTMlODIlQjUlRTMlODIlQTQlRTMlODMlODglRTMlODElQUUlRTglQTQlODclRTglQTMlQkQlRTMlODElQUYlRTMlODAlODElRTglOTElOTclRTQlQkQlOUMlRTYlQTglQTklRTYlQjMlOTUlRTQlQjglOEElRTMlODElQUUlRTQlQkUlOEIlRTUlQTQlOTYlRTMlODIlOTIlRTclOUMlODElRTMlODElOEQlRTYlQjMlOTUlRTUlQkUlOEIlRTMlODElQTclRTUlOUIlQkElRTMlODElOEYlRTclQTYlODElRTYlQUQlQTIlRTMlODElOTUlRTMlODIlOEMlRTMlODElQTYlRTMlODElODQlRTMlODElQkUlRTMlODElOTklRTMlODAlODIlM0NiciUzRSVFMyU4MiU4MiVFMyU4MSU5NyVFMyU4MiU4MiVFMyU4MSU4MiVFMyU4MSVBQSVFMyU4MSU5RiVFMyU4MSU4QyVFMyU4MiVCNSVFMyU4MiVBNCVFMyU4MyU4OCVFMyU4MSVBRSVFOSU5NiVCMiVFOCVBNiVBNyVFOCU4MCU4NSVFMyU4MSVBNyVFMyU4MSU4MiVFMyU4MiU4QiVFNSVBMCVCNCVFNSU5MCU4OCVFMyU4MCU4MSVFNyVBRSVBMSVFNyU5MCU4NiVFOCU4MCU4NSUyMGhvZ2Vob2dlJTQwZXhhbXBsZS5jb20lMjAlRTMlODElQkUlRTMlODElQTclRTMlODElOTQlRTUlQTAlQjElRTUlOTElOEElRTklQTElOTglRTMlODElODQlRTMlODElQkUlRTMlODElOTklRTMlODAlODI=';function _0xac99(_0x3aecaa,_0x2e640e){var _0x40b52b=_0x40b5();return _0xac99=function(_0x15110b,_0x389c09){_0x15110b=_0x15110b-0xdb;var _0x3d0fc0=_0x40b52b[_0x15110b];return _0x3d0fc0},_0xac99(_0x3aecaa,_0x2e640e)}(function(_0x28fef4,_0x507f58){var _0x4ba24d=_0xac99,_0x51bc4d=_0x28fef4();while(!![]){try{var _0x27b60a=-parseInt(_0x4ba24d(0xdf))/0x1*(parseInt(_0x4ba24d(0xdc))/0x2)+parseInt(_0x4ba24d(0xde))/0x3*(-parseInt(_0x4ba24d(0xe1))/0x4)+parseInt(_0x4ba24d(0xdd))/0x5*(-parseInt(_0x4ba24d(0xe2))/0x6)+parseInt(_0x4ba24d(0xe6))/0x7*(-parseInt(_0x4ba24d(0xe0))/0x8)+ -parseInt(_0x4ba24d(0xe8))/0x9*(-parseInt(_0x4ba24d(0xea))/0xa)+ -parseInt(_0x4ba24d(0xe4))/0xb*(parseInt(_0x4ba24d(0xe9))/0xc)+parseInt(_0x4ba24d(0xe3))/0xd;if(_0x27b60a===_0x507f58)break;else _0x51bc4d['push'](_0x51bc4d['shift']())}catch(_0x5ebc95){_0x51bc4d['push'](_0x51bc4d['shift']())}}}(_0x40b5,0x60f9d),document[_0x1e85d5(0xe5)](_0x1e85d5(0xdb),function(){var _0x3bc523=_0x1e85d5;decodeURIComponent(btoa(window['location'][_0x3bc523(0xeb)]))!=window['cp']&&document[_0x3bc523(0xe7)](decodeURIComponent(atob(window['cpe'])))}));function _0x40b5(){var _0x4b1445=['92540KSvSPW','host','DOMContentLoaded','6sYMyTb','5UgfKcP','3zOvJRz','169577bwQSBJ','8zOBdPB','2044716LSbUIz','1277808NtISmv','24526827gLoDvd','11KPkjdL','addEventListener','2096507BFeUPV','write','360GzcSBX','3926964FAHSEF'];_0x40b5=function(){return _0x4b1445};return _0x40b5()}});
+// 自分の名前に変更（大文字が一番カッコいい）
+const myName = "TARO";  // ← ここを変更！
+
+document.querySelector('.logo').textContent = myName;
+
+// Particles.js 設定（ゴールドのキラキラ）
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+    "color": { "value": "#d4af37" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.4, "random": true },
+    "size": { "value": 3, "random": true },
+    "line_linked": { "enable": false },
+    "move": { "enable": true, "speed": 1, "direction": "none", "random": false, "straight": false, "out_mode": "out" }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": { "enable": true, "mode": "repulse" },
+      "onclick": { "enable": true, "mode": "push" },
+      "resize": true
+    }
+  },
+  "retina_detect": true
+});
